@@ -4,21 +4,25 @@ import { useAuthStore } from '../../store/auth/useAuthStore';
 
 
 export const HomeScreen = () =>{
+ 
+  const { logout } = useAuthStore();
 
-    const { logout } = useAuthStore();
+  return (
+    <Layout style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>¡Bienvenido a EasyCommerce!</Text>
 
-    return (
-      <Layout style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>HomeScreen</Text>
+      <Text style={{ textAlign: 'center', margin: 20 }}>
+        La plataforma para gestionar y vender productos fácilmente.
+      </Text>
 
-        {/*<Icon name="facebook"/>*/}
+      {/*<Icon name="facebook"/>*/}
 
-        <Button
-          accessoryLeft={ <Icon name="log-out-outline"/> }
-          onPress={ logout }
-        >
-          Cerrar sesión
-        </Button>
-      </Layout>
-    )
-  }
+      <Button
+        accessoryLeft={ <Icon name="log-out-outline"/> }
+        onPress={ logout }
+      >
+        Cerrar sesión
+      </Button>
+    </Layout>
+  )
+}

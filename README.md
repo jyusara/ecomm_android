@@ -32,11 +32,11 @@ Diseño de las pantallas de la aplicación Easy COMMERCE.
 [Figma - Link de diseño del aplicativo](https://www.figma.com/design/ENYmbcTJlxufUdqOodux7f/Moviles?node-id=0-1&p=f&t=h1f1qKkqucPgCr9o-0)
 
 ### Login
-![Login](src\assets\readme\login-figma.png)
+![login-figma](https://github.com/user-attachments/assets/b8dd8582-1c4f-421a-83d4-9f2b9ec89484)
 ### Register
-![Register](src\assets\readme\register-figma.png)
+![register-figma](https://github.com/user-attachments/assets/d6f1e4ba-ecad-43ba-b14d-59e9a7cb46a5)
 ### Home
-![Home](src\assets\readme\home-figma.png)
+![homer-figma](https://github.com/user-attachments/assets/2fbf4c91-a7d1-41e5-b93e-f5df5dd82a8c)
 ## DEMO
 
 >**Nota**: El demo aun se enucentra en proceso :c .

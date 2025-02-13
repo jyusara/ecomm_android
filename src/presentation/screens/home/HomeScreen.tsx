@@ -1,28 +1,28 @@
-import { Button, Icon, Layout, Text } from '@ui-kitten/components';
-import { useAuthStore } from '../../store/auth/useAuthStore';
-
+import { getProductsByPage } from '../../../actions/products/get-products-by-page';
+import { useQuery } from '@tanstack/react-query';
+import { MainLayout } from '../../layouts/MainLayout';
+import {  Text } from '@ui-kitten/components';
+import { FullScreenLoader } from '../../components/ui/FullScreenLoader';
+import { ProductList } from '../../components/products/ProductsList';
 
 
 export const HomeScreen = () =>{
- 
-  const { logout } = useAuthStore();
+   const {isLoading, data:products = []} = useQuery({
+    queryKey: ['products','infinite'],
+    staleTime: 100*60*60,
+    queryFn: ()=> getProductsByPage(0),
+  });
 
   return (
-    <Layout style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>¡Bienvenido a EasyCommerce!</Text>
-
-      <Text style={{ textAlign: 'center', margin: 20 }}>
-        La plataforma para gestionar y vender productos fácilmente.
-      </Text>
-
-      {/*<Icon name="facebook"/>*/}
-
-      <Button
-        accessoryLeft={ <Icon name="log-out-outline"/> }
-        onPress={ logout }
-      >
-        Cerrar sesión
-      </Button>
-    </Layout>
+    <MainLayout
+    title='EasyShop - Products'
+    subTitle='Aplicación Administrativa'
+    >
+      {
+        isLoading
+        ? (<FullScreenLoader/>)
+        : <ProductList products={products}/>
+      }
+    </MainLayout>
   )
 }

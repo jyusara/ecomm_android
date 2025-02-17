@@ -2,7 +2,7 @@ import axios from "axios";
 import { StorageAdapter } from "../adapters/storage-adapter";
 
 //UP:CHANGE ADDRESS
-export const API_URL = 'http://192.168.18.186:3000/api';
+export const API_URL = 'http://192.168.1.9:3000/api';
 
 
 const tesloApi = axios.create({ 

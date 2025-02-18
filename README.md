@@ -1,4 +1,4 @@
-# EASY COMMERCE
+# EASY SHOP
 
 >**Nota**: Actualizar IP ADDRESS en los archivos .env y tesloApi.ts con la IP de su equipo.
 

@@ -24,6 +24,14 @@ Si todo se instalo correctamente, ingresar el comando debajo para la ejecución 
 ```bash
 npm start -- --reset-cache
 ```
+Para ejecutar las pruebas unitarias ejecutar el comando debajo.
+
+```bash
+npm test -- --watch
+```
+## Pruebas Unitarias
+
+https://github.com/user-attachments/assets/27e2ccef-0362-4237-9cce-ee9f61ece2ee
 
 ## FIGMA
 
@@ -37,7 +45,8 @@ Diseño de las pantallas de la aplicación Easy COMMERCE.
 ![register-figma](https://github.com/user-attachments/assets/d6f1e4ba-ecad-43ba-b14d-59e9a7cb46a5)
 ### Home
 ![homer-figma](https://github.com/user-attachments/assets/2fbf4c91-a7d1-41e5-b93e-f5df5dd82a8c)
+
 ## DEMO
 
->**Nota**: El demo aun se enucentra en proceso :c .
+https://github.com/user-attachments/assets/d9c6a9b9-2e29-4e4c-b55a-6a0453e51a18
 

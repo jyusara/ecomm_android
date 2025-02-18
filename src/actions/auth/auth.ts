@@ -3,7 +3,7 @@ import { User } from "../../domain/entities/user";
 import type { AuthResponse } from "../../infrastructure/interfaces/auth.responses";
 
 
-const returnUserToken = ( data: AuthResponse) => {
+export const returnUserToken = ( data: AuthResponse) => {
     const user: User = {
         id: data.id,
         email: data.email,

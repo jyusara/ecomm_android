@@ -1,7 +1,6 @@
 import { getProductsByPage } from '../../../actions/products/get-products-by-page';
 import { useQuery } from '@tanstack/react-query';
 import { MainLayout } from '../../layouts/MainLayout';
-import {  Text } from '@ui-kitten/components';
 import { FullScreenLoader } from '../../components/ui/FullScreenLoader';
 import { ProductList } from '../../components/products/ProductsList';
 

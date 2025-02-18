@@ -1,6 +1,6 @@
 # EASY COMMERCE
 
->**Nota**: Actualizar IP ADDRESS en los archivos .env y metro.conf con la IP de su equipo.
+>**Nota**: Actualizar IP ADDRESS en los archivos .env y tesloApi.ts con la IP de su equipo.
 
 ## Step 1: Instalación
 

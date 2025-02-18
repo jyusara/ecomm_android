@@ -35,7 +35,7 @@ https://github.com/user-attachments/assets/27e2ccef-0362-4237-9cce-ee9f61ece2ee
 
 ## FIGMA
 
-Diseño de las pantallas de la aplicación Easy COMMERCE.
+Diseño de las pantallas de la aplicación EasyShop.
 
 [Figma - Link de diseño del aplicativo](https://www.figma.com/design/ENYmbcTJlxufUdqOodux7f/Moviles?node-id=0-1&p=f&t=h1f1qKkqucPgCr9o-0)
 
